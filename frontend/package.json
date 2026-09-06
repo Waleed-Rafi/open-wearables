@@ -8,8 +8,8 @@
     "pnpm": ">=10.0.0"
   },
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "build": "vite build",
+    "dev": "node init && vite dev --port 3000",
+    "build": "node init && vite build",
     "serve": "vite preview",
     "test": "vitest run",
     "lint": "oxlint -c .oxlintrc.json src",
